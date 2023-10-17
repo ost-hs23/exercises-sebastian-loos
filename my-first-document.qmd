@@ -1,9 +1,10 @@
 ---
 title: "My first Document"
 author: "Sebastian Camilo Loos"
-format: html
+format: 
+  html:
+    toc: true
 editor: visual
-toc: true
 theme: sketchy
 ---
 
