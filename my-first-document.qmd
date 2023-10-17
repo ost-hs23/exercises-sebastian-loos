@@ -1,0 +1,20 @@
+---
+title: "My first Document"
+author: "Sebastian Camilo Loos"
+format: html
+editor: visual
+toc: true
+theme: sketchy
+---
+
+## Joy
+
+Since I wrote my bachelor thesis in Quarto one of the aspects I really liked was that I had everything at one place. Different outputs, code and text together.
+
+## Challenge
+
+Getting feedback from my supervisor was not as straight forward. I had to render my thesis into a docx file and then add it to the google drive where she would be able to add comments and fix stuff. I always had to manually type in the changes in my qmd-file instead of just clicking on a button like except.
+
+## Fact to learn
+
+Where can AI or LLM help me in the development of my working process.
