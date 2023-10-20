@@ -15,11 +15,30 @@ library(palmerpenguins)
 
 1.  Create a 2 row x 2 column table, populate with a column for restaurant + column for cuisine. Then, cross reference it from text.
 
+    | restaurant | cuisine  |
+    |------------|----------|
+    | dieci      | italian  |
+    | Le Cedre   | lebanese |
+
+    : Restaurants in Zürich {#tbl-restaurants}
+
+    @tbl-restaurants includes a list of restaurants in Zürich and it's corresponding type of cuisine.
+
 2.  Include the Quarto logo from the `images/` folder as a figure. Add a caption, id, and cross-reference to the figure.
+
+    <div>
+
+    ![Logo of Quarto](images/quarto-logo.png){#fig-quarto}
+
+    </div>
+
+    The logo of quarto is displayed in @fig-quarto.
 
 3.  **Stretch goal:** Add a caption, label, and cross-reference to the figure generated from the code below.
 
 ```{r}
+#| fig-cap: Scatterplot about the relationship between bill depth and length for three diffeent penguin species.
+#| label: fig-bill-point
 #| warning: false
 #| fig-width: 5
 #| fig-asp: 0.618
@@ -34,3 +53,5 @@ ggplot(data = penguins,
   labs(x = "Bill length (mm)", y = "Bill depth (mm)") +
   theme_minimal()
 ```
+
+@fig-bill-point shows the relationship between the bill length and depth of three different penguin species (Adelie, Chinstrap, Gentoo).
